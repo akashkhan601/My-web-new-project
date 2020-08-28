@@ -1,0 +1,348 @@
+
+/* this is navbar media query */
+
+@media (max-width : 991px){
+#navbarUl{
+background: white;
+margin-top: 20px;
+
+}
+}
+
+@media (max-width : 991px){
+    #menu12{
+    color: black;
+    
+    }
+    }
+
+     /* End up navbar media query */
+
+  /* This is About section media query */
+ 
+
+    @media (max-width :767px){
+        .about-me-img-box img{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 312px;
+  
+        }
+    }
+
+
+    @media (max-width : 991px){
+        .about-title p{
+        font-size: larger;
+        
+        }
+        }
+
+        @media (max-width : 991px){
+            .title-menu ul {
+            font-size: larger;
+            
+            }
+            }
+
+             
+            @media (max-width : 991px){
+                .title-menu ul li{
+                font-size: 13px;
+                
+                }
+                }
+        
+
+
+@media (max-width : 575px){
+    .about-me-box h1{
+    font-size: 30px;
+    
+    }
+    }
+
+    @media (min-width : 576px){
+        .about-me-box h1{
+        font-size: 30px;
+        
+        }
+        }
+
+    @media (min-width : 768px){
+        .about-me-box h1{
+        font-size: 30px;
+        
+        }
+        }
+    
+        @media (min-width : 992px){
+            .about-me-box h1{
+            font-size: 45px;
+            
+            }
+            }
+
+    
+    @media (min-width : 768px){
+        .about-me-img-box img{
+        width: 253px;
+        
+        }
+        }
+ 
+        @media (min-width : 992px){
+            .about-me-img-box img{
+                width: 319px;
+            
+            }
+            }
+     
+    /* End up About section media query */         
+
+     /* start below the Services  section media query */   
+
+    @media (max-width :1199px){
+        .services-box{
+            width: 326px;
+        }
+        #rightContact{
+            width: 342px;
+        }
+        #leftIcon{
+            width: 41px;
+        }
+    }
+
+  
+  @media (max-width :575px){
+        #rightContact{
+                width: 350px;
+        }
+    }
+
+
+ 
+   
+
+
+
+@media (min-width :768px){
+    #rightContact{
+        width: 212px; 
+    }
+}
+
+
+@media (min-width :992px){
+    #rightContact{
+        width: 310px; 
+    }
+}
+
+
+    @media (max-width :767px){
+        .services-box{
+            width: 467px;
+            margin: 15px auto;
+        }
+    }
+
+ 
+    @media (min-width :992px){
+        .services-box{
+            width: 445px;
+        }
+    }
+
+    @media (min-width :1200px){
+        .services-box{
+         width: 352px;;
+        }
+        #rightContact{
+            width: 223px; 
+        }
+    }
+
+     /* End up the Services  section media query */ 
+
+     /* Start below the INSPIRATION section media query */
+ 
+     @media(max-width :1199px){
+        .slidervai-imageLeft{
+            margin: auto;
+        }
+       
+     }
+
+     @media(max-width :1199px){
+        .slidervai-contactRight{
+            margin: auto;
+        }
+
+        .slidervai-contactRight h3{
+            text-align: center;
+        }
+       
+     }
+
+     /* End up the INSPIRATION section media query */
+
+
+     /* Start below the Skills section media query */
+
+
+@media(min-width : 992px){
+    .pogress-img{
+        width: 323px;
+    }
+    .pogress-contaner{
+        margin-top: 70px;
+    } 
+}
+
+@media(min-width : 1200px){
+    .pogress-img{
+        width: 400px;
+    }
+    .pogress-contaner{
+        margin-top: 15%;
+    } 
+    .skill-titel h1{
+        font-size: 52px;
+    }
+}
+
+     /* End up  the Skills section media query */
+
+
+     /* Start  the Portfolio section media query  */
+
+     @media(min-width : 1200px){
+        .potfolio-titel h1{
+            font-size: 61px;
+            text-align: center;
+        }
+     }
+
+     @media(max-width : 575px){
+        .btn-controls ul li{
+            margin: 0px 6px;
+            font-size: 12px;
+            padding: 8px;
+            
+        }
+     }
+
+     @media(max-width : 414px){
+        .btn-controls ul li{
+            margin: 0px 2px;
+            font-size: 11px;
+            padding: 4px;
+        }
+        }
+     
+        @media(min-width :576px){
+            .btn-controls ul li{
+                margin: 7px;
+    font-size: 15px;
+    padding: 5px 10px;
+            }
+        }
+   
+        @media(min-width :768px){
+            .btn-controls ul li{
+                margin: 10px;
+                padding: 5px 15px;
+            }
+        }
+
+
+
+
+   
+     /* End up  the Portfolio section media query  */
+      
+     /* Start  the testimonial section media query  */
+
+     @media(max-width : 1199.98px){
+         .testimonial-container{
+             max-width: 100%;
+             padding: 0 60px;
+         }
+     }
+
+     /* End up  the testimonial section media query  */
+
+     /* Start below  the Awred counter section media query  */
+
+ 
+     @media(max-width : 767px){
+        .counter-main-div{
+            width: 100%;
+            margin: 15px 0px;
+           
+        }
+    }
+
+   
+    @media(min-width : 768px){
+        .counter-main-div{
+            width: 100%;
+            margin: 15px 0px;
+           
+        }
+    }
+
+     /* End up  the Awred counter section media query  */
+
+     /* Nothing need media query code for my image gallary */
+
+     /* Start below the aviable freelancing section media query  */
+
+     @media(max-width : 767px){
+        .aviable-content h1{
+          
+           letter-spacing: 8px;
+        }
+    }
+
+    @media(max-width : 510px){
+        .aviable-content h1{
+          font-size: 30px;
+           letter-spacing: 4px;
+        }
+        .heiar-link a{
+            padding: 8px;
+            font-size: 12px;
+            padding-left: 18px;
+            padding-right: 18px;
+    }
+}
+
+@media(max-width : 575px){
+    .full-content-heiar-link {
+        margin-bottom: 40px;
+    }
+}
+
+     /* End up the aviable freelancing section media query  */
+
+     /* start the below my Blog section media query  */
+
+     @media(max-width : 991px){
+        .card {
+            margin: 25px 0;
+        }
+    }
+
+    @media(min-width : 992px){
+        .my-blog-titel {
+            margin-bottom: 38px;
+        }
+    }
+
+     /* End up the my Blog section media query  */
+
+    
