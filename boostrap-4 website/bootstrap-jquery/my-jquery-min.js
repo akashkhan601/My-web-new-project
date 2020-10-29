@@ -1,4 +1,16 @@
 $(document).ready(function() {
+
+
+  $(function() {
+    $('.animate-clip').animatedHeadline({
+        animationType: 'clip',
+        
+        
+    });
+});
+
+
+
   
   /* this below is magnific popup  */
     $('.img-popup').magnificPopup({
@@ -14,7 +26,7 @@ $(document).ready(function() {
 
     $(document).on('click', '.li-button', function(){
        $(this).addClass('active').siblings.removeClass('active');
-    })
+    });
 
     /* this below is owl carousel testimonial */
     $('.owl-carousel').owlCarousel({
@@ -43,9 +55,21 @@ $(document).ready(function() {
       
     }
 
+
     });
 
     /* End up  is owl carousel testimonial */
 
+    /* below the water effact jquery plugin code */
 
+    $(".water").ripples();
+    /* end up the water effact jquery plugin code */
+
+    $(function() {
+      $('.animatedH').animatedHeadline({
+          animationType: 'rotate-1'
+      });
   })
+
+  });
+

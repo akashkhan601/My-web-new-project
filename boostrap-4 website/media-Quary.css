@@ -26,7 +26,7 @@ margin-top: 20px;
    display: block;
    margin-left: auto;
    margin-right: auto;
-   width: 312px;
+   width: 280px;
   
         }
     }
@@ -202,6 +202,8 @@ margin-top: 20px;
     } 
 }
 
+
+
 @media(min-width : 1200px){
     .pogress-img{
         width: 400px;
@@ -213,6 +215,25 @@ margin-top: 20px;
         font-size: 52px;
     }
 }
+
+
+/* 
+@media(min-width : 280px){
+    .pogress-img img{
+        width: 100px;
+    }
+}
+ */
+
+
+/* 
+
+@media(max-width : 430px){
+    .pogress-img{
+        width: 290px;
+    }
+
+     */
 
      /* End up  the Skills section media query */
 
@@ -272,6 +293,14 @@ margin-top: 20px;
              padding: 0 60px;
          }
      }
+
+     @media(max-width : 350px){
+        .testimonial-titel h1{
+            font-size: 15px;
+            letter-spacing: 7px;
+        }
+    }
+
 
      /* End up  the testimonial section media query  */
 
@@ -345,4 +374,416 @@ margin-top: 20px;
 
      /* End up the my Blog section media query  */
 
-    
+     /* Start the below favorite singer media query  */
+
+ /* this below singer pic media query */
+     @media(min-width : 992px){
+        .fasingerpic img{
+           width: 291px;
+        
+        }
+
+        .fasingerpic {
+            width: 250px;
+         
+         }
+    }
+
+    @media(min-width : 1200px){
+        .fasingerpic img{
+            width: 380px;
+         
+         }
+    }
+
+    @media(max-width : 575px){
+        .fasingerpic img{
+            width: 325px;
+            
+         }
+
+         .fasingerpic{
+           text-align: center;
+            
+         }
+    }
+
+    @media(min-width : 1200px){
+        .fasingerpic h3{
+           /* text-align: center; */
+           position: relative;
+           left: 25%;
+         
+         }
+    }
+
+    @media(max-width : 320px){
+        .fasingerpic img{
+            width: 250px;
+            
+         }
+        }
+
+    /* this below singer song video media query */
+
+    @media(max-width : 991px){
+        .faVideo video{
+             width: 100%; 
+             margin-bottom: 18px;
+            
+         }
+
+         .fasingerpic{
+            text-align: center;
+             
+          }
+
+        }
+
+        @media(min-width : 992px){
+            .faVideo video{
+                 width: 217px; 
+                  margin: 10px;
+                
+             }
+            }
+
+            
+        @media(min-width : 1200px){
+            .faVideo video{
+                 width: 300px; 
+                  margin: 10px;
+                
+             }
+            }
+
+    /* End up singer song video media query */
+
+    /* Start the below contact box media query media query */
+
+
+
+    @media(max-width : 991px){
+        .addressBox {
+            margin: 15px 0;
+            
+         }
+        }    
+
+        @media(max-width : 575px){
+            #submit-btn{
+                width: 100%;
+                
+             }
+            } 
+
+    /* End up the contact box media query media query */
+
+  
+
+        
+    @media(max-width : 450px){
+        .footer-div strong{
+           font-size: 13px;
+            
+         }
+
+         .footer-socail-icon-btn i{
+             margin: 0 12px;
+             padding: 0; 
+            background: none; 
+         }
+        } 
+
+
+        /* submenu meidea query */
+        
+       @media(max-width: 320px){
+           #subMenu{
+               width: 100%;
+           }
+       }
+
+        /* banner titel media query */
+
+        @media(min-width: 1200px){
+            .banner-titel h1{
+                font-size: 58px;
+            }
+        }
+
+        @media(min-width: 576px){
+            .banner-titel h1{
+                font-size: 19px;
+            }
+        }
+
+        @media(min-width: 768px){
+            .banner-titel h1{
+                font-size: 34px;
+            }
+        }
+
+        @media(min-width: 1200px){
+            .banner-titel h1{
+                font-size: 58px;
+                letter-spacing: 18px;
+            }
+        }
+
+
+
+        @media(max-width: 575px){
+            .banner-titel h1{
+                font-size: 26px;
+                letter-spacing: 0px;
+            }
+        }
+
+       
+
+        @media(max-width: 414px){
+            .banner-titel h1{
+                font-size: 14px;
+                letter-spacing: 0px;
+            }
+        }
+
+
+
+        @media(max-width: 320px){
+            .banner-titel h1{
+                font-size: 10px;
+                letter-spacing: 0px;
+            }
+        }
+
+        /* end up the baaner titel media query */
+
+        /*start the below animation headline  media query */
+
+        @media(min-width: 576px){
+            span.ah-headline.rotate-1{
+                 font-size: 12px; 
+            }
+        }
+
+        @media(min-width: 768px){
+            span.ah-headline.rotate-1{
+                 font-size: 18px; 
+            }
+        }
+
+        @media(min-width: 992px){
+            span.ah-headline.rotate-1{
+                 font-size: 22px; 
+            }
+        }
+
+
+        @media(min-width: 1200px){
+            span.ah-headline.rotate-1{
+                 font-size: 28px; 
+            }
+        }
+
+
+      
+
+        @media(max-width: 575px){
+            span.ah-headline.rotate-1{
+                 font-size: 14px; 
+            }
+
+            .my-animated-headline{
+                position: absolute;
+                /* text-align: center; */
+                top: 49%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+              }
+        }
+
+        @media(max-width: 500px){
+            span.ah-headline.rotate-1{
+                 font-size: 11px; 
+            }
+
+            .banner-titel h1{
+                font-size: 16px;
+                
+            }
+
+            .my-animated-headline{
+                position: absolute;
+                /* text-align: center; */
+                top: 47%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+              }
+        }
+
+
+
+      
+
+      
+
+        @media(max-width: 414px){
+            span.ah-headline.rotate-1{
+                 font-size: 17px; 
+            }
+            .banner-titel h1{
+                font-size: 16px;
+                
+            }
+            
+        }
+
+
+        @media(max-width: 375px){
+            span.ah-headline.rotate-1{
+                 font-size: 16px; 
+            }
+            .banner-titel h1{
+                font-size: 14px;
+                
+            }
+            
+        }
+        
+        @media(max-width: 320px){
+            span.ah-headline.rotate-1{
+                 font-size: 13px; 
+            }
+            .my-animated-headline{
+                position: absolute;
+                /* text-align: center; */
+                top: 47%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+              }
+
+              .banner-titel h1{
+                font-size: 10px;
+                
+            }
+            
+        }
+
+        /*end up animation headline  media query */
+
+        /*start the below banner baton  media query */
+
+        @media(min-width: 576px){
+            .banner-contact-btn a{
+                padding: 9px;
+                font-size: 12px;
+                padding-left: 20px;
+                padding-right: 20px; 
+            }
+            .banner-hear-btn a{
+                padding: 9px;
+                font-size: 12px;
+                padding-left: 28px;
+                padding-right: 28px 
+            }
+        } 
+        
+        @media(min-width: 992px){
+            .banner-contact-btn a{
+                padding: 11px;
+                font-size: 14px;;
+                padding-left: 30px;
+                padding-right: 30px 
+            }
+            .banner-hear-btn a{
+                padding: 11px;
+                 font-size: 14px;
+                padding-left: 30px;
+                padding-right: 30px 
+            }
+        } 
+
+ 
+        @media(max-width: 575px){
+            .banner-contact-btn a{
+                padding: 7px;
+                font-size: 10px;
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+            .banner-hear-btn a{
+                padding: 7px;
+                font-size: 10px;
+                padding-left: 28px;
+                padding-right: 28px 
+            }
+        }
+         
+
+        /*end up banner baton  media query */
+
+        /*start the below banner icon baton  media query */
+
+
+             @media(min-width: 576px){
+                .banner-scoial-icon-btn i{
+                 font-size: 12px;
+                 margin: 0 5px;
+            }
+            .banner-scoial-icon-btn{
+                position: absolute;
+                /* text-align: center; */
+                top: 75%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+              }
+          
+        }
+
+        @media(min-width: 768px){
+            .banner-scoial-icon-btn i{
+                
+                margin: 0px 13px;
+                border: 1px solid #fff;
+                padding: 15px;
+                border-radius: 50%;
+                background: transparent;
+                outline: none;
+                cursor: pointer;
+                transition: all 0.6s ease;
+        }
+      
+      
+    }
+
+    @media(min-width: 992px){
+        .banner-scoial-icon-btn i{
+            font-size: 18px;
+            margin: 0px 13px;
+            border: 1px solid #fff;
+            padding: 15px;
+            border-radius: 50%;
+            background: transparent;
+            outline: none;
+            cursor: pointer;
+            transition: all 0.6s ease;
+    }
+  
+  
+}
+
+
+@media(max-width: 575px){
+    .banner-scoial-icon-btn i{
+        margin: 0 4px;
+    font-size: 13px;
+}
+
+
+}
+
+        /*end up the banner icon baton  media query */
+
+
